@@ -37,7 +37,7 @@ int main() {
 	int a1, b2, c3, d4, e5, f6, g7, h8, i9, j10, k11, l12;
 	int check;
 
-	scanf_s("%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d", &a1, &b2, &c3, &d4, &e5, &f6, &g7, &h8, &i9, &j10, &k11, &l12); //gets user input for digits
+	scanf("%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d", &a1, &b2, &c3, &d4, &e5, &f6, &g7, &h8, &i9, &j10, &k11, &l12); //gets user input for digits
 
 
 	int firstTotal = b2 + d4 + f6 + h8 + j10 + l12; //create variable firstTotal for even digits

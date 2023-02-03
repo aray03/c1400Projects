@@ -22,7 +22,7 @@ int main(void) {
 	printf("Enter length of side: ");//Ask user for length of side
 
 	int sideLen;//Initialize int of sideLen
-	scanf_s("%d", &sideLen);//Get side from user
+	scanf("%d", &sideLen);//Get side from user
 
 	sideLen = sideLen * sideLen * sideLen;//Compute volume
 

@@ -15,7 +15,7 @@ int main(void){
 	for (int i = 1; i <= 5; i++) {
 	
 		printf("Enter integer %d: ", i);
-		scanf_s("%d", &e[i-1]);
+		scanf("%d", &e[i-1]);
 	}
 
 	int sum = e[0];

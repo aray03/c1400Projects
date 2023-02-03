@@ -14,12 +14,12 @@ int main(void) {
 	
 	printf("Enter Num To Be Created/Destroyed: ");
 
-	scanf_s("%d", &num);
+	scanf("%d", &num);
 
 	int create;
 	printf("\bEnter 1 if Create | 0 if Destroy: ");
 
-	scanf_s("%d", &create);
+	scanf("%d", &create);
 
 	bool DELETE;
 
@@ -128,7 +128,7 @@ int main(void) {
 	
 	printf("\n\n\nThe Work Has Been Finished: ");
 
-	scanf_s("%d", &num);
+	scanf("%d", &num);
 	
 
 	return 0;

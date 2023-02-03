@@ -24,13 +24,13 @@ int(main(void)) {
 	int height, width, length, volume;
 
 	printf("Enter Height: ");
-	scanf_s("%d", &height);
+	scanf("%d", &height);
 
 	printf("\nEnter Width: ");
-	scanf_s("%d", &width);
+	scanf("%d", &width);
 
 	printf("\nEnter Length: ");
-	scanf_s("%d", &length);
+	scanf("%d", &length);
 
 	volume = height * width * length;
 

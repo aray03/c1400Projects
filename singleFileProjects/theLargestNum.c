@@ -19,7 +19,7 @@ int main(void) {
 	
 		printf("Enter a number: ");
 		
-		scanf_s("%f", &currentNum);
+		scanf("%f", &currentNum);
 
 		if (currentNum <= 0) {
 			looping = 0;
