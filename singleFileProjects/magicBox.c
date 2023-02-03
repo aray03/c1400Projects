@@ -43,8 +43,8 @@ int main(void) {
 	//Ask for numbers
 	//Get number inputs from user
 	printf("Enter Numbers 1-16: ");
-	scanf_s("%d%d%d%d%d%d%d%d", &a1, &a2, &a3, &a4, &b1, &b2, &b3, &b4);
-	scanf_s("%d%d%d%d%d%d%d%d", &c1, &c2, &c3, &c4, &d1, &d2, &d3, &d4);
+	scanf("%d%d%d%d%d%d%d%d", &a1, &a2, &a3, &a4, &b1, &b2, &b3, &b4);
+	scanf("%d%d%d%d%d%d%d%d", &c1, &c2, &c3, &c4, &d1, &d2, &d3, &d4);
 
 	printf("-------------------------------------------------");
 	printf("\n\n\t%d\t%d\t%d\t%d\n\n", a1, a2, a3, a4);//Print out row 1
